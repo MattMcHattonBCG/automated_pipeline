@@ -6,6 +6,7 @@ resources:
       name: sanghung2/JavaProjectDemo
       ref: azure-pipeline
     - repository: PipelineTestingPOC
+      endpoint: Azure_TFS
       type: git
       name: Testing Pipeline POC/Testing Pipeline POC
       ref: main
