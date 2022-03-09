@@ -13,8 +13,6 @@ resources:
       trigger:
         - main
 
-
-pr: none
 pool:
   vmImage: 'ubuntu-latest'
 parameters:
