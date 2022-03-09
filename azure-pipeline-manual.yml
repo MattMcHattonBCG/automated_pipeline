@@ -27,7 +27,7 @@ stages:
         displayName: Build and Run Tests
         steps:
           - checkout: self
-          - checkout: AzureTestingPOC
+          - checkout: PipelineTestingPOC
           - powershell: |
               Write-Host "Running this pipeline"
             displayName: Running Script
