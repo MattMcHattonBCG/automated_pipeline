@@ -5,8 +5,13 @@ resources:
       endpoint: GitHubSang
       name: sanghung2/JavaProjectDemo
       ref: azure-pipeline
-      trigger: 
-        - azure-pipeline
+    - repository: PipelineTestingPOC
+      type: git
+      name: extMcHattonMatt/Testing Pipeline POC
+      ref: main
+      trigger:
+        - main
+
 
 pr: none
 pool:
